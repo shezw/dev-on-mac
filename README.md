@@ -26,6 +26,8 @@ free | free for part | trial | purchase
 
 ## Libraries or commandline-tools
 
+-----
+
 ### Packages management
 
 #### [HomeBrew](https://brew.sh/)
@@ -35,6 +37,8 @@ free | free for part | trial | purchase
 free
 
 [mirror](libs/homebrew.md#mirrors)
+
+-----
 
 ### IOS Development
 
@@ -48,6 +52,8 @@ free
 
 ## Graphic UI applications
 
+-----
+
 ### Terminal & Remote Desktop
 
 #### [Royal TSX](https://royalapps.com/ts/mac/features)
@@ -58,3 +64,13 @@ clean design and easy to use, lots of features and plugins.
 support remote desktop, VNC, SSH, UART ...
 
 free for part
+
+-----
+
+### Large Language Model
+
+#### [GPT4All](https://www.nomic.ai/gpt4all)
+
+> Run Large Language Models Locally
+
+free
