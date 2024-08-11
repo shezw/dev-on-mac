@@ -49,6 +49,29 @@
 > OC / Swift 的依赖包管理器，用于IOS开发
 
 
+### 通用开发工具
+
+#### [VirtualBox](https://www.virtualbox.org/)
+
+> VirtualBox是一款功能强大的x86和AMD64/Intel64虚拟化产品，适用于企业和家庭使用。
+
+
+免费
+
+```bash
+brew install virtualbox
+```
+
+#### [Minikube](https://minikube.sigs.k8s.io/docs/)
+
+> minikube在macOS、Linux和Windows上快速建立本地Kubernetes集群。我们自豪地专注于帮助应用程序开发人员和新的Kubernetes用户。
+
+free
+
+```bash
+brew install minikube
+```
+
 
 -----
 
@@ -79,3 +102,19 @@
 可以在mac上部署运行各种大模型
 
 免费
+
+----- 
+
+### 通用开发工具
+
+#### [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+> Docker 的桌面图形化软件
+
+个人和小团队免费
+
+
+
+-----
+
+### Others

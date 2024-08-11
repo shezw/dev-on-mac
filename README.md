@@ -47,6 +47,27 @@ free
 > CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects.
 
 
+### General Development Tools
+
+#### [VirtualBox](https://www.virtualbox.org/)
+
+> VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
+
+free
+
+```bash
+brew install virtualbox
+```
+
+#### [Minikube](https://minikube.sigs.k8s.io/docs/)
+
+> minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. We proudly focus on helping application developers and new Kubernetes users.
+
+free 
+
+```bash
+brew install minikube
+```
 
 -----
 
@@ -74,3 +95,19 @@ free for part
 > Run Large Language Models Locally
 
 free
+
+----- 
+
+### General Development Tools
+
+#### [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+> The #1 containerization software for developers and teams
+
+free for personal and small team
+
+
+
+-----
+
+### Others
