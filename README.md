@@ -36,6 +36,10 @@ free | free for part | trial | purchase
 
 free
 
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 [mirror](libs/homebrew.md#mirrors)
 
 -----
@@ -46,6 +50,9 @@ free
 
 > CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects.
 
+```bash
+sudo gem install cocoapods
+```
 
 ### General Development Tools
 
@@ -70,6 +77,30 @@ brew install minikube
 ```
 
 -----
+
+#### [nginx](https://nginx.org)
+
+> nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev
+
+free
+
+```bash
+brew install nginx
+```
+
+[install notice](libs/nginx.md)
+
+#### [Postgresql](https://www.postgresql.org/)
+
+> The World's Most Advanced Open Source Relational Database
+
+free
+
+```bash
+brew install postgresql
+```
+
+[notice](libs/postgresql.md)
 
 ## Graphic UI applications
 
@@ -106,6 +137,30 @@ free
 
 free for personal and small team
 
+#### [SequelPro](https://sequelpro.com/)
+
+> Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.
+
+free
+
+MySQL support only 
+
+#### [dbeaver](https://dbeaver.io/)
+
+> Universal Database Tool
+DBeaver Community is a free cross-platform database tool for developers, database administrators, analysts, and everyone working with data. It supports all popular SQL databases like MySQL, MariaDB, PostgreSQL, SQLite, Apache Family, and more.
+
+free of community version
+
+```bash
+brew install --cask dbeaver-community
+```
+
+#### [Redis Desktop Manager](https://github.com/RedisInsight/RedisDesktopManager)
+
+> GUI for Redis ® (Formerly RedisDesktopManager) <br/>RESP.app is joining forces with Redis to offer the Redis community the best possible developer experience and to increase productivity when developing with Redis. 
+
+free
 
 
 -----

@@ -38,6 +38,10 @@
 
 免费
 
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 [镜像](libs/homebrew.md#mirrors)
 
 -----
@@ -48,6 +52,9 @@
 
 > OC / Swift 的依赖包管理器，用于IOS开发
 
+```bash
+sudo gem install cocoapods
+```
 
 ### 通用开发工具
 
@@ -66,12 +73,36 @@ brew install virtualbox
 
 > minikube在macOS、Linux和Windows上快速建立本地Kubernetes集群。我们自豪地专注于帮助应用程序开发人员和新的Kubernetes用户。
 
-free
+免费
 
 ```bash
 brew install minikube
 ```
 
+
+#### [nginx](https://nginx.org)
+
+> nginx [engine x] 是一个 HTTP 和反向代理服务器、一个邮件代理服务器和一个通用 TCP/UDP 代理服务器，最初由 Igor Sysoev 编写
+> 
+免费
+
+```bash
+brew install nginx
+```
+
+[安装配置信息](libs/nginx.md)
+
+#### [Postgresql](https://www.postgresql.org/)
+
+> 全球最先进的开源关系数据库
+
+免费
+
+```bash
+brew install postgresql
+```
+
+[安装配置信息](libs/postgresql.md)
 
 -----
 
@@ -113,6 +144,23 @@ brew install minikube
 
 个人和小团队免费
 
+#### [SequelPro](https://sequelpro.com/)
+
+> Sequel Pro 是一款快速、易于使用的 Mac 数据库管理应用程序，用于处理 MySQL 数据库。
+
+免费
+
+仅支持MySQL
+
+#### [dbeaver](https://dbeaver.io/)
+
+> DBeaver Community 是一款免费的跨平台数据库工具，适用于开发人员、数据库管理员、分析师以及所有处理数据的人。它支持所有流行的 SQL 数据库，如 MySQL、MariaDB、PostgreSQL、SQLite、Apache Family 等。
+
+社区版免费
+
+```bash
+brew install --cask dbeaver-community
+```
 
 
 -----
