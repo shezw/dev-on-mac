@@ -104,6 +104,14 @@ brew install postgresql
 
 [安装配置信息](libs/postgresql.md)
 
+#### [MySQL](https://www.mysql.com/)
+
+```bash
+brew install mysql
+```
+
+[安装配置](libs/mysql.md)
+
 -----
 
 ## 图形应用
