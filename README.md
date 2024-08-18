@@ -155,6 +155,14 @@ free
 
 MySQL support only 
 
+### [PGAdmin](https://www.pgadmin.org/)
+
+> pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+
+free
+
+[download dmg](https://www.pgadmin.org/download/pgadmin-4-macos/)
+
 #### [dbeaver](https://dbeaver.io/)
 
 > Universal Database Tool

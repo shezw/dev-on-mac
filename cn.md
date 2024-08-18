@@ -152,6 +152,14 @@ brew install postgresql
 
 仅支持MySQL
 
+### [PGAdmin](https://www.pgadmin.org/)
+
+> pgAdmin 是世界上最先进的开源数据库 PostgreSQL 最受欢迎且功能丰富的开源管理和开发平台。
+
+免费
+
+[download dmg](https://www.pgadmin.org/download/pgadmin-4-macos/)
+
 #### [dbeaver](https://dbeaver.io/)
 
 > DBeaver Community 是一款免费的跨平台数据库工具，适用于开发人员、数据库管理员、分析师以及所有处理数据的人。它支持所有流行的 SQL 数据库，如 MySQL、MariaDB、PostgreSQL、SQLite、Apache Family 等。
