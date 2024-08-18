@@ -100,6 +100,16 @@ free
 brew install postgresql
 ```
 
+#### [Redis](https://redis.io/)
+
+> the world’s fastest in-memory database from the ones who built it.
+
+```bash
+brew install redis
+```
+
+[notice](libs/redis.md)
+
 [notice](libs/postgresql.md)
 
 ## Graphic UI applications
@@ -156,12 +166,15 @@ free of community version
 brew install --cask dbeaver-community
 ```
 
-#### [Redis Desktop Manager](https://github.com/RedisInsight/RedisDesktopManager)
+#### [~~Redis Desktop Manager~~ RedisInsight](https://github.com/RedisInsight/RedisDesktopManager)
 
 > GUI for Redis ® (Formerly RedisDesktopManager) <br/>RESP.app is joining forces with Redis to offer the Redis community the best possible developer experience and to increase productivity when developing with Redis. 
 
 free
 
+```bash
+brew install redisinsight
+```
 
 -----
 

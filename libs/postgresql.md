@@ -11,3 +11,15 @@ brew services start postgresql@14
 Or, if you don't want/need a background service you can just run:
 /usr/local/opt/postgresql@14/bin/postgres -D /usr/local/var/postgresql@14
 ```
+
+### add env
+
+```bash
+echo '# postgresql env' >>  ~/.zshrc
+echo 'export PATH=/usr/local/opt/postgresql@14/bin:$PATH' >> ~/.zshrc
+echo '# postgresql env end' >> ~/.zshrc
+
+source ~/.zshrc
+
+psql --version
+```
