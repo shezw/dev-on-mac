@@ -100,6 +100,15 @@ free
 brew install postgresql
 ```
 
+#### [MySQL](https://www.mysql.com/)
+
+```bash
+brew install mysql
+```
+
+[notice](libs/mysql.md)
+
+
 #### [Redis](https://redis.io/)
 
 > the world’s fastest in-memory database from the ones who built it.
