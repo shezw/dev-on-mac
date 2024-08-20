@@ -1,6 +1,6 @@
 ### MySQL notice
 
-```bash
+```shell
 We've installed your MySQL database without a root password. To secure it run:
     mysql_secure_installation
 

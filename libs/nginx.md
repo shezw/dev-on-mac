@@ -1,6 +1,6 @@
 ### nginx default config & notice
 
-```bash
+```shell
 Docroot is: /usr/local/var/www
 
 The default port has been set in /usr/local/etc/nginx/nginx.conf to 8080 so that

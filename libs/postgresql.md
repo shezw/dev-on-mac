@@ -1,6 +1,6 @@
 ## postgres notes
 
-```bash
+```shell
 This formula has created a default database cluster with:
 initdb --locale=C -E UTF-8 /usr/local/var/postgresql@14
 For more details, read:
@@ -14,7 +14,7 @@ Or, if you don't want/need a background service you can just run:
 
 ### add env
 
-```bash
+```shell
 echo '# postgresql env' >>  ~/.zshrc
 echo 'export PATH=/usr/local/opt/postgresql@14/bin:$PATH' >> ~/.zshrc
 echo '# postgresql env end' >> ~/.zshrc

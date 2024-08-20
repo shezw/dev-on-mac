@@ -38,7 +38,7 @@
 
 免费
 
-```bash
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -52,7 +52,7 @@
 
 > OC / Swift 的依赖包管理器，用于IOS开发
 
-```bash
+```shell
 sudo gem install cocoapods
 ```
 
@@ -65,7 +65,7 @@ sudo gem install cocoapods
 
 免费
 
-```bash
+```shell
 brew install virtualbox
 ```
 
@@ -75,7 +75,7 @@ brew install virtualbox
 
 免费
 
-```bash
+```shell
 brew install minikube
 ```
 
@@ -86,7 +86,7 @@ brew install minikube
 > 
 免费
 
-```bash
+```shell
 brew install nginx
 ```
 
@@ -98,7 +98,7 @@ brew install nginx
 
 免费
 
-```bash
+```shell
 brew install postgresql
 ```
 
@@ -106,11 +106,44 @@ brew install postgresql
 
 #### [MySQL](https://www.mysql.com/)
 
-```bash
+```shell
 brew install mysql
 ```
 
 [安装配置](libs/mysql.md)
+
+#### [openJDK](https://openjdk.java.net/)
+
+> Java 开发工具包
+
+免费 (GPL)
+
+```shell
+brew install openjdk  # 22
+brew install openjdk@21
+brew install openjdk@17
+brew install openjdk@11
+brew install openjdk@8
+```
+
+#### [scala](https://docs.scala-lang.org/getting-started/index.html)
+
+> Scala 是一门多范式（multi-paradigm）的编程语言，设计初衷是要集成面向对象编程和函数式编程的各种特性。 <br/>Scala 运行在 Java 虚拟机上，并兼容现有的 Java 程序。 <br/>Scala 源代码被编译成 Java 字节码，所以它可以运行于 JVM 之上，并可以调用现有的 Java 类库。
+
+
+```shell
+brew install coursier/formulas/coursier && cs setup
+```
+
+或使用非BREW脚本安装
+苹果M系列:
+```shell
+curl -fL https://github.com/VirtusLab/coursier-m1/releases/latest/download/cs-aarch64-apple-darwin.gz | gzip -d > cs && chmod +x cs && (xattr -d com.apple.quarantine cs || true) && ./cs setup
+```
+x86架构:
+```shell
+curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-apple-darwin.gz | gzip -d > cs && chmod +x cs && (xattr -d com.apple.quarantine cs || true) && ./cs setup
+```
 
 -----
 
@@ -174,7 +207,7 @@ brew install mysql
 
 社区版免费
 
-```bash
+```shell
 brew install --cask dbeaver-community
 ```
 

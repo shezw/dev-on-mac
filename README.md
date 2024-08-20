@@ -36,7 +36,7 @@ free | free for part | trial | purchase
 
 free
 
-```bash
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -50,7 +50,7 @@ free
 
 > CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects.
 
-```bash
+```shell
 sudo gem install cocoapods
 ```
 
@@ -62,7 +62,7 @@ sudo gem install cocoapods
 
 free
 
-```bash
+```shell
 brew install virtualbox
 ```
 
@@ -72,7 +72,7 @@ brew install virtualbox
 
 free 
 
-```bash
+```shell
 brew install minikube
 ```
 
@@ -84,7 +84,7 @@ brew install minikube
 
 free
 
-```bash
+```shell
 brew install nginx
 ```
 
@@ -96,13 +96,15 @@ brew install nginx
 
 free
 
-```bash
+```shell
 brew install postgresql
 ```
 
+[notice](libs/postgresql.md)
+
 #### [MySQL](https://www.mysql.com/)
 
-```bash
+```shell
 brew install mysql
 ```
 
@@ -113,13 +115,43 @@ brew install mysql
 
 > the world’s fastest in-memory database from the ones who built it.
 
-```bash
+```shell
 brew install redis
 ```
 
 [notice](libs/redis.md)
 
-[notice](libs/postgresql.md)
+#### [openJDK](https://openjdk.java.net/)
+
+> Development kit for the Java programming language
+
+free (GPL)
+
+```shell
+brew install openjdk  # 22
+brew install openjdk@21
+brew install openjdk@17
+brew install openjdk@11
+brew install openjdk@8
+```
+
+#### [scala](https://docs.scala-lang.org/getting-started/index.html)
+
+> A programming language that scales with you: from small scripts to large multiplatform applications.
+
+```shell
+brew install coursier/formulas/coursier && cs setup
+```
+
+Or
+on Apple Silicon arch:
+```shell
+curl -fL https://github.com/VirtusLab/coursier-m1/releases/latest/download/cs-aarch64-apple-darwin.gz | gzip -d > cs && chmod +x cs && (xattr -d com.apple.quarantine cs || true) && ./cs setup
+```
+on x86_64 arch:
+```shell
+curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-apple-darwin.gz | gzip -d > cs && chmod +x cs && (xattr -d com.apple.quarantine cs || true) && ./cs setup
+```
 
 ## Graphic UI applications
 
@@ -179,7 +211,7 @@ DBeaver Community is a free cross-platform database tool for developers, databas
 
 free of community version
 
-```bash
+```shell
 brew install --cask dbeaver-community
 ```
 
@@ -189,7 +221,7 @@ brew install --cask dbeaver-community
 
 free
 
-```bash
+```shell
 brew install redisinsight
 ```
 
